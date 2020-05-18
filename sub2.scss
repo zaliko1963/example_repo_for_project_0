@@ -1,0 +1,33 @@
+$li-color: blue;
+%li {
+    font-size: medium;
+    font-style: italic;
+    color: $li-color; /*using a variable*/
+}
+.li-main {
+    @extend %li; /*using inheritance*/
+    font-weight: bold;
+    background-color: yellow;
+}
+.li-secondary {
+    @extend %li; /*using inheritance*/
+    font-weight: normal;
+    background-color: beige;
+}
+
+h3 {
+    color: blue;
+    span {                  /*using scss nesting*/
+        font-style: italic;
+        color: red;
+    }
+}
+p>span {
+    text-decoration: underline;
+}
+img {
+    width: 100%;
+}
+#p2 {
+    display: none;
+}
