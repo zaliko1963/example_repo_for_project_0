@@ -1,7 +1,0 @@
-My website consists of 4 pages: the main page and 3 subpages. There are navigation buttons at the bottom of each page to go to another.
-The website contains 4 thml pages named: index.html, sub1.html, sub2.html, sub3.html. Corresponding scss and css files are alse named accordingly, i.e. index, sub1, sub2, sub3.
-The main page contains a responsive picture using @media quieries: when the screen's width >= 600px, the image's width is 30% of its parent container. When the screen width drops below 600px, the image's width becoms 80% of the parent container. Also at 600px the background color of 'body' element changes from yellow to beige using @media quieries. Resize the the browser window to see the effects.
-Subpage 1 page uses bootstrap's grid system to make a table where contained elements are bootstrap's card elements consisting of images and p tags shown above.
-Table elements are set such that at screen size >= md there are 3 elements per table row; at screen size between sm and md there are 2 elements per table row; and at screen size less than sm, only one element per table row (resize the browser window to see the effects).
-Subpage 2 contains an unordered list which is styled with scss nested rules in corresponding 'sub2.scss' file. It also uses scss variable $li-color for styling li's font color and scss inheritance for styling li elements (see corresponding 'sub2.scss' file).
-Subpage 3 contains a table made with appropriate css table elements (not a bootstrap table).
